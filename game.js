@@ -113,6 +113,8 @@ function showEndMenu(){
     }
     document.getElementById('best-score').innerHTML = highScore;
 }
+
+
  
 function resetGame(){
     birdX = 50;
@@ -123,7 +125,7 @@ function resetGame(){
     pipeX = 400;
     pipeY = canvas.height - 200;
     
-   score= 0;
+   score= 0
 }
 
 function endGame(){
